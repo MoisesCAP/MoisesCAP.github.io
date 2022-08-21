@@ -201,28 +201,28 @@ html, body {
 }
 
 a.twitter-bg {
-    color: #55acee;
-    border-color: #55acee; 
+    color: #0691d1;
+    border-color: #0691d1; 
 }
 
 a.twitter-bg:hover {
-    background-color: #55acee;
+    background-color: #0691d1;
 }
 
 a.instagram-bg {
-  color:#405DE6;
-  border-color:#405DE6;
+  color:#0691d1;
+  border-color:#0691d1;
 }
 
 a.instagram-bg:hover{
-  background-color: #405DE6;
+  background-color: #0691d1;
 }
 
 a.linkedin-bg {
-  color: #007bb5;
-  border-color: #007bb5;
+  color: #0691d1;
+  border-color: #0691d1;
 }
 
 a.linkedin-bg:hover {
-  background-color: #007bb5;
+  background-color: #0691d1;
 }
