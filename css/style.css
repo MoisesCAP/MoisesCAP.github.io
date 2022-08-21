@@ -33,10 +33,10 @@ a:hover {
 
 p {
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 300;
-    color: #9fa3a7;
-    line-height: 22px;
+    color: #000000;
+    line-height: 26px;
 }
 
 h1 {
@@ -55,7 +55,9 @@ p + p {
     margin-top: 40px;
 }
 
-
+.texto-justificado{
+    text-align: justify;
+}
 
 /* LAYOUT
 ================================================== */
@@ -182,7 +184,25 @@ html, body {
     position: relative;
     margin: 45px 0 30px;
     font-size: 20px;
-    color: #26272d;
+    color: #000000;
+}
+
+.heading-separator {
+    position: relative;
+    margin: 0;
+    padding-bottom: 70px;
+}
+
+.heading-separator:after {
+    content: "";
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    width: 50px;
+    margin: 0 auto;
+    background-color: #ffffff;
 }
 
 
@@ -190,8 +210,8 @@ html, body {
 ================================================== */
 .social-links a {
     line-height: 36px;
-    padding: 5px 15px;
-    font-size: 18px;
+    padding: 5px 18px;
+    font-size: 21px;
     border: 1px solid;
     border-radius: 50px;
 }
