@@ -1,0 +1,228 @@
+
+ /* TABLE OF CONTENT 
+*
+* - CUSTOM RESETS
+    - Buttons
+    - Forms
+* - LAYOUT
+* - HEADER 
+    - Site Logo
+    - Navigation
+* - HERO (BANNER) 
+*/
+
+
+/* CUSTOM RESETS
+================================================== */
+a {
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    color: #9fa3a7;
+}
+
+a:focus,
+a:hover {
+    color: #6fc754;
+    outline: 0 none;
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #9fa3a7;
+    line-height: 22px;
+}
+
+h1 {
+    font-size: 62px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h1,h2,h3,h4,h5 {
+    color: #26292c;
+}
+
+p + p {
+    margin-top: 40px;
+}
+
+
+
+/* LAYOUT
+================================================== */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #26272d;
+}
+
+
+/* HEADER
+================================================== */
+.site-header {
+    position: absolute;
+    padding: 50px 0 0;
+    background-color: transparent;
+    width: 100%;
+    z-index: 3;
+}
+
+/* Site-logo */
+
+.site-title {
+    font-size: 18px;
+    line-height: 26px;
+    color: #26272d;
+}
+
+.site-title:hover {
+    color: #26272d;   
+}
+
+.site-title span {
+    font-weight: 700;
+}
+
+
+
+/* Navigation
+================================================== */
+.navbar-nav > li > a, 
+.slicknav_nav > li > a {
+    padding: 0;
+    font-size: 16px;
+    position: relative;
+    color: #26272d;
+    line-height: 26px;
+}
+
+
+.navbar-nav > li > a i {
+    margin-left: 5px;
+}
+
+.navbar-nav > li + li {
+    margin-left: 30px;
+}
+
+.nav .open > a, 
+.nav .open > a:focus, 
+.nav .open > a:hover,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus,
+.navbar-nav > li.active > a,
+.navbar-collapse li a:hover,
+.dropdown.open > a, 
+.site-header-white .dropdown.open > a,
+.dropdown-menu a:hover, 
+.dropdown:hover > a, 
+.dropdown-menu>li>a:focus,
+.dropdown-menu li a:hover,
+.slicknav_nav > li.active a,
+.slicknav_open .slicknav_arrow,
+.slicknav_nav > li a:hover {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+
+/* HERO
+================================================== */
+.hero { 
+    background: url(../img/hero.jpg) no-repeat center / cover; 
+    height: 100%;
+    width: 100%;
+    display: table;
+    position: relative;
+}
+
+.overlay:before {
+  content: '';
+  background-color: rgba(255,255,255,0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.hero-content {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 75px;
+}
+
+.hero-text {
+    max-width: 890px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    position: relative;
+    margin: 0;
+}
+
+.hero-text p {
+    position: relative;
+    margin: 45px 0 30px;
+    font-size: 20px;
+    color: #26272d;
+}
+
+
+/* Social networks
+================================================== */
+.social-links a {
+    line-height: 36px;
+    padding: 5px 15px;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 50px;
+}
+
+.social-links a:hover {
+    color: #fff;
+}
+
+a.twitter-bg {
+    color: #55acee;
+    border-color: #55acee; 
+}
+
+a.twitter-bg:hover {
+    background-color: #55acee;
+}
+
+a.instagram-bg {
+  color:#405DE6;
+  border-color:#405DE6;
+}
+
+a.instagram-bg:hover{
+  background-color: #405DE6;
+}
+
+a.linkedin-bg {
+  color: #007bb5;
+  border-color: #007bb5;
+}
+
+a.linkedin-bg:hover {
+  background-color: #007bb5;
+}
