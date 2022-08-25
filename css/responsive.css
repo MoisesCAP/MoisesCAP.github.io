@@ -90,42 +90,6 @@
 	    font-size: 18px;
 	}
 
-	/* Section: Features */
-	.section-features h2 {
-	    font-size: 26px;
-	}
-
-	/* Section: Services */
-	.section-services .subheading-text {
-	    margin-bottom: 60px;
-	}
-
-	.section-services .col-md-3:nth-child(n+3) .service {
-	    margin-top: 30px;
-	}
-
-	.service-title {
-		margin: 25px 0 10px;
-	}
-
-	/* Section: Map Feature */
-	.section-map-feature {
-	    padding-top: 150px;
-	}
-
-	.section-map-feature h2 {
-		padding-bottom: 25px;
-	}
-
-	.section-map-feature .btn {
-		margin: 45px 0 115px;
-	}
-
-	/* Section: Newsletter */
-	.section-newsletter h2 {
-		padding-bottom: 25px;
-	}
-
 	/* FOOTER */
 	.site-footer {
 		padding-top: 55px;
@@ -415,68 +379,9 @@
 	    font-size: 16px;
 	}
 
-	/* Section: Features */
-	.section-features h2 {
-	    padding-bottom: 15px;
-	    font-size: 22px;
-	}
-
 	.section-features img {
 		position: relative;
 	    height: 180px;
-	}
-
-	/* Section: Services */
-	.section-services .subheading-text {
-	    margin-bottom: 20px;
-	}
-
-	.section-services .col-md-3 .service {
-	    margin-top: 20px;
-	}
-
-	.service-title {
-		margin: 15px 0 5px;
-	}
-
-	/* Section: Map Feature */
-	.section-map-feature {
-	    padding-top: 100px;
-	}
-
-	.section-map-feature h2 {
-		padding-bottom: 25px;
-	}
-
-	.section-map-feature .btn {
-		margin: 30px 0 65px;
-	}
-
-	.counter {
-		margin: 15px 0;
-		font-size: 32px;
-	}
-
-	/* Section: Portfolio */
-	.portfolio-item {
-	    margin-top: 15px;
-	}
-
-	.section-portfolio .col-xs-6:nth-child(odd) {
-		padding-right: 7.5px;
-	}
-
-	.section-portfolio .col-xs-6:nth-child(even) {
-		padding-left: 7.5px;
-	}
-
-	.portfolio-item:hover a {
-		left: 50%;
-	}
-
-	/* Section: Newsletter */
-	.section-newsletter h2 {
-		padding-bottom: 15px;
 	}
 
 	.newsletter-group .btn {
@@ -505,133 +410,6 @@
 		margin-top: 15px;
 	}
 
-	/* Copyright */
-	.copyright {
-		padding: 15px 0;
-	}
-	
-	/* PAGES */
-	/* Portfolio */
-	#grid {
-		margin-top: 25px;
-	}
-
-	/* 
-	 * Project item
-	 */
-	.project-img {
-		height: 240px;
-	}
-
-	.project-img + .project-img {
-		margin-top: 15px;
-	}
-
-	.project-info h5,
-	.project-info .btn,
-	.project-info .social-links {
-		margin-top: 15px;
-	}
-
-	.project-description,
-	.project-date-category {
-		margin-top: 20px;
-	}
-
-	.project-date-category p + p {
-		margin-top: 5px;
-	}
-
-	/* 
-	 * Blog
-	 */
-	.blog-post + .blog-post,
-	.section-blog .ui-pagination {
-    	margin-top: 30px;
-	}
-	.blog-post img {
-		height: 240px;
-	}
-
-	.post-content,
-	.post-content .text-right,
-	.post-meta,
-	.post-content p {
-	    margin-top: 15px;
-	}
-
-	.post-author img {
-    	height: 30px;
-	}
-
-	.post-meta span {
-		font-size: 12px;
-	}
-
-	.post-meta i {
-	    font-size: 26px;
-	}
-
-	.post-meta span a {
-		padding-left: 35px;
-	}
-
-	.post-meta span + span {
-		margin-left: 10px;
-	}
-
-	.post-comment {
-		padding-left: 50px;
-	}
-
-	.post-comment img {
-		height: 65px;
-		width: 50px;
-	}
-
-	.replied {
-		margin-left: 50px;
-	}
-
-	/* Sidebar */
-	.widget + .widget {
-		margin-top: 30px;
-	}
-
-	.widget-title {
-		margin-bottom: 15px;
-	}
-
-	.widget .list-unstyled li + li {
-		margin-top: 10px;
-	}
-
-	.widget-tags .list-unstyled li + li {
-		margin-top: 5px;
-		padding-top: 5px
-	}
-
-	/* 
-	 * Contact
-	 */
-	/* Section: Contact-us */
-	.section-contact-us h2 {
-		padding-bottom: 30px;
-	}
-
-	.contact-info {
-		margin-top: 40px;
-		padding-left: 0;
-	}
-
-	.section-contact-us .row .col-sm-7 .col-sm-6 + .col-sm-6 {
-		margin-top: 25px;
-	}
-
-	.contact-info .list-unstyled + h3, 
-	.contact-info a + h3 {
-		margin: 15px 0 10px;
-	}
 }
 
 /* Extra Small Devices, Phones */ 
@@ -646,20 +424,6 @@
 		min-height: 100%;
 	}
 
-	/* Section: Portfolio */
-	.section-portfolio .col-xs-6 {
-		width: 100%;
-	}
-
-	.section-portfolio .col-xs-6:not(:first-child) .portfolio-item {
-	    margin-top: 0;
-	}
-
-	.section-portfolio .col-xs-6:nth-child(odd),
-	.section-portfolio .col-xs-6:nth-child(even) {
-		padding: 0;
-	}
-
 	/* FOOTER */
 	.site-footer .col-xs-6 {
 		width: 100%;
@@ -667,49 +431,6 @@
 
 	.site-footer > .container .col-xs-6:nth-child(n+2) h3 {
 		margin-top: 25px;
-	}
-
-	/* Copyright */
-    .copyright .col-xs-8,
-    .copyright .col-xs-4 {
-    	width: 100%;
-    	text-align: center;
-    }
-
-    .copyright .text-right {
-    	text-align: center;
-    	padding: 10px 0 0
-    }
-	/* PAGES */
-    /* Project item */
-    .section-related-projects .col-xs-6 {
-		width: 100%;
-	}
-
-	.section-related-projects .portfolio-item {
-	    margin-top: 0;
-	}
-
-	.section-related-projects .col-xs-6:nth-child(odd),
-	.section-related-projects .col-xs-6:nth-child(even) {
-		padding: 0;
-	}
-
-	/* Blog */
-	.post-meta span {
-		display: block;
-	}
-
-	.post-meta span + span {
-		margin: 10px 0 0;
-	}
-
-	.post-comment-content-details p {
-		display: block
-	}
-
-	.post-comment-content-details p + p {
-		margin: 5px 0 0 0;
 	}
 }
 
