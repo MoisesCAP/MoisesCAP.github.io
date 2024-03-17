@@ -1,0 +1,315 @@
+/*================= PANTALLAS PC REDUCIDAS ===============*/
+@media screen and (max-width:1130px){
+	.zona_nav {
+		flex-basis:30%;
+	}
+	.objetivo {
+		height:26em;
+		gap:10%;
+	}
+	.dato_descubridor {
+		height:15em;
+	}
+}
+
+@media screen and (max-width:1010px){
+	
+	.zona_nav {
+		flex-basis:35%;
+	}
+
+	.objetivo {
+		height:27em;
+		gap:13%;
+	}
+	
+	.titulo_objetivo{
+		width:80%;
+	}
+	
+	.dato_descubridor {
+		height:15em;
+	}
+	 
+	.texto_objetivo {
+		padding:4%;
+	}
+	
+	.contacto {
+		font-size:15px;
+	}
+	
+	.footer_centro hr {
+		width:50%;
+	}
+	
+}
+/*=================  ===============*/
+
+/*================= TABLETS ===============*/
+@media screen and (max-width:890px){
+	
+	.zona_nav {
+		flex-basis:40%;
+	}
+
+	.objetivo {
+		font-size:15px;
+		flex-direction:column;
+		height:50em;
+		gap:5%;
+	}
+	
+	.titulo_objetivo {
+		width:80%;
+	}
+	
+	.descubridor {
+		justify-content:space-around;
+		align-items:center;
+		flex-wrap:wrap;
+		flex-direction:row;
+	}
+	.dato_descubridor {
+		flex-basis:45%;
+		align-items:center;
+		height:19em;
+	}
+	
+	.img_objetivo {
+		width:70%;
+	}
+	
+	.texto_objetivo {
+		width:90%;
+		padding:4%;
+	}
+			
+	.separador {
+		margin-top:9%;
+	}
+		
+	.galeria{
+		height:120em;
+		flex-direction:column;
+		margin:0;
+		padding:0;
+	}
+		
+	.galeria div {
+		width:40%;
+	}
+	
+	.sobre_mi {
+		font-size:14px;
+	}
+	
+	.footer_centro {
+		font-size:14px;
+	}
+}
+
+@media screen and (max-width:780px){
+	
+	.cabecera {
+		justify-content:center;
+	}
+	
+	.zona_nav {
+		flex-basis:60%;
+	}
+	
+	.logo {
+		display:none;
+	}
+	
+	.centro {
+		color:#FFFFFF;
+	}
+	
+	#bienvenida {
+		font-size:50px;
+	}	
+	
+	.separador {
+		margin-top:20%;
+	}
+	
+	.galeria {
+		margin:0;
+		padding:0;
+	}
+
+	.objetivo {
+		font-size:14px;
+		flex-direction:column;
+		height:45em;
+		gap:7%;
+	}
+	
+	.titulo_objetivo{
+		width:100%;
+	}
+	
+	.titulo_objetivo h1{
+		font-size:30px;
+	}
+
+	.descubridor {
+		justify-content:space-around;
+		align-items:center;
+		flex-wrap:wrap;
+		flex-direction:row;
+		gap:10%;
+	}
+	.dato_descubridor {
+		flex-basis:45%;
+		align-items:center;
+		height:17em;
+	}
+	
+	.img_objetivo {
+		width:75%;
+	}
+	
+	.texto_objetivo {
+		width:90%;
+		padding:5%;
+	}
+			
+	.contacto {
+		align-items:center;
+		flex-wrap:wrap;
+		height:25em;
+	}
+	
+	.sobre_mi {
+		order:1;
+		height:10em;
+	}
+	
+	.mis_datos {
+		height:20em;
+		gap:6%;
+	}
+	
+	.footer_centro {
+		order:3;
+	}
+	
+	.footer_centro hr {
+		display:none;
+	}
+		
+	.sugerencias {
+		order:2;
+		align-items:flex-start;
+		gap:10%;
+		height:10em;
+	}
+}
+
+@media screen and (max-width:650px){
+	.img_objetivo {
+		width:80%;
+	}
+}
+
+@media screen and (max-width:600px){
+	
+	.contacto {
+		flex-wrap:nowrap;
+		flex-direction:column;
+		height:36em;
+		gap:7%;
+	}
+}
+/*=================  ===============*/
+
+/*================= MÓVILES  ===============*/
+@media screen and (max-width:570px){
+	
+	.zona_nav {
+		flex-basis:75%;
+	}
+	
+	.objetivo {
+		margin-top:7%;
+		height:64em;
+		gap:4%;
+	}
+	
+	.titulo_objetivo {
+		width:100%;
+	}
+	
+	.descubridor {
+		flex-wrap:nowrap;
+		flex-direction:column;
+	}
+
+	.dato_descubridor {
+		flex-basis:45%;
+		align-items:center;
+	}
+	
+	.img_objetivo {
+		width:62%;
+	}
+	
+	.texto_objetivo {
+		padding:1%;
+		width:60%;	
+	}
+			
+	.separador {
+		margin-top:30%;
+	}
+	
+	.galeria{
+		height:240em;
+		flex-direction:column;
+	}
+		
+	.galeria div {
+		width:70%;
+	}
+	
+	.crea_commons {
+		text-align:center;
+		width:100%;
+	}
+}
+
+@media screen and (max-width:520px){
+	#bienvenida {
+		font-size:40px;
+	}
+	
+	#textoAnimado {
+		font-size:15px;
+	}
+	
+	.objetivo {
+		height:65em;
+		gap:7%;
+	}
+}
+
+@media screen and (max-width:512px){
+	.objetivo {
+		height:64em;
+		gap:7%;
+	}
+	
+	.separador {
+		margin-top:40%;
+	}
+}
+
+@media screen and (max-width:485px){
+	.objetivo {
+		height:67em;
+		gap:10%;
+	}
+}

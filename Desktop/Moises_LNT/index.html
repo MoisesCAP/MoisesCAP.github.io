@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <title>MC</title>
+    <link rel="icon" href="img/favicon.png">
+    <link href="css/estilos.css" rel="stylesheet">
+    <link href="css/flexible.css" rel="stylesheet">
+</head>
+
+<body>
+	<header class="cabecera">
+		<div class="logo">
+			<a href=""><p><strong>Nature</strong>EXPLORE_</p></a>
+		</div>
+		<div class="zona_nav">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="#objetivo">Objetivo</a></li>
+				<li><a href="#galeria">Galeria</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
+		
+		</div> <!-- zona_nav -->
+	</header>
+
+	
+	<section class="portada">
+		<div class="centro">
+			<div id="bienvenida">
+				<h1>¡Bienvenido!</h1>	
+			</div>
+			<div id="textoAnimado"></div>
+			<hr>
+	</section> <!-- Bienvenida centro-->
+	
+	<section class="objetivo" id="objetivo">
+		<div class="titulo_objetivo">
+			<h1>Galería de paisajes naturales</h1>
+			<p>  
+			En esta página, te presentaré una serie de fotos hechas por fotógrafos profesionales, con el propósito de que puedas explorar y apreciar diferentes aspectos de nuestro planeta. Para ello, me gustaría que tuvieras en cuenta lo siguiente...
+			</p>
+		</div> <!-- título objetivo -->
+		
+		<div class="descubridor">
+		
+			<div class="dato_descubridor">
+				<div><img class="img_objetivo" src="img/mundo.png"></div>
+				<div class="texto_objetivo">
+					Hay multitud de paises que tienen secretos muy bien guardados.
+				</div>
+			</div>
+			
+			<div class="dato_descubridor">
+				<div><img class="img_objetivo" src="img/explorar.png"></div>
+				<div class="texto_objetivo">
+					Tenemos una diversidad de paisajes que se adaptan a diferentes gustos.
+				</div>
+			</div>
+			
+			<div class="dato_descubridor">
+				<div><img class="img_objetivo" src="img/calendario.png"></div>
+				<div class="texto_objetivo">
+					Existen lugares para visitir en cualquier época del año.
+				</div>
+			</div>
+		</div>  <!-- Tres imágenes objetivo -->
+	</section>
+	
+	<hr class="separador">
+	
+	<section class="galeria" id="galeria">
+		<div id="galeria_1"></div>
+		<div id="galeria_2"></div>
+		<div id="galeria_3"></div>
+		<div id="galeria_4"></div>
+		<div id="galeria_5"></div>
+		<div id="galeria_6"></div>
+		<div id="galeria_7"></div>
+		<div id="galeria_8"></div>
+	</section> <!-- Todas las imágenes de la galería -->
+	
+	<section class="contacto" id="contacto">
+		<div class="sobre_mi">
+			<div id="mi_nombre"><h3>Moisés A. Campos Perdomo</h3></div>
+			<div class="mis_datos">
+				<div class="info">
+					<img src="img/movil.png">
+					<p>
+						Teléfono: <br>
+						+(34) 456-1267
+					</p>
+				</div>
+					
+				<div class="info">
+					<img src="img/posicion.png">
+					<p>
+						Dirección: <br>
+						20 C. Retamar, Los llanos <br>
+						Santa Cruz de Tenerife
+					</p>
+				</div>
+				
+				<div class="info">
+					<img src="img/email.png">
+					<p>
+						Email: <br>
+						info@dawmail.com
+					</p>
+				</div>
+			</div>
+		</div> <!-- Datos del autor-->
+	
+	
+		<div class="footer_centro">
+			<hr>
+			<div class="reglas">
+				<div class="validado_css">
+					<p>
+						<a href="http://jigsaw.w3.org/css-validator/check/referer">
+							<img style="border:0;width:88px;height:31px"
+								src="http://jigsaw.w3.org/css-validator/images/vcss"
+								alt="¡CSS Válido!" />
+						</a>
+					</p>
+				</div>
+				
+				<div class="crea_commons">
+					<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Moisés Alejandro</span> is licensed under <a href="http://creativecommons.org/licenses/by-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-ND 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1"></a></p>
+				</div>
+			</div>
+		</div> <!-- Creative commons y validación CSS W3C-->
+		<form>
+			<div class="sugerencias">
+				<div>
+					<label for="nombre">Nombre  <br>
+						<input type="text" id="nombre" placeholder=" Ingresa tu nombre" maxlength="25" size="30px" autocomplete=off required pattern="[A-Za-záéíóúÁÉÍÓÚñÑ\s]+">
+					</label>
+				</div>
+				
+				<div>						
+					<textarea rows=5 cols=40 id="textarea" placeholder=" Ingresa aquí tú sugerencia" maxlength=200></textarea></div>
+					
+				<div>		
+					<label for="enviar" >
+						<input type="submit" value="Enviar" id="enviar">
+					</label>
+				</div>
+			</div>
+		</form> <!-- Bloque de texto para sugerencias -->
+	</section>
+	
+	<script src="js/animacionTexto.js"></script> <!-- Enlace con JS para texto centro portada -->
+</body>
+</html>
